@@ -4,7 +4,7 @@
 \usepackage{abstract}
 \usepackage{hyperref}
 \usepackage{listings}
-\usepackage{indentfirst}
+%\usepackage{indentfirst}  % Can be finicky. Use primarily for homework.
 \usepackage{amssymb}
 
 \graphicspath{ {./images/} }
@@ -12,7 +12,7 @@
 
 \setlength{\parindent}{0.5in}
 
-\title{Homework Template}
+\title{CPSC 323 - Lecture}
 \author{Chris Nutter\thanks{Dedicated to @QuesoGrande a.k.a. Jared D.}}
 
 % --> Here we go, satellite radio, y'all get hit with a...
@@ -23,18 +23,26 @@
 
 \begin{abstract}
     \noindent
-    \begin{center}\textbf{Date + Time}\end{center}
-        Don't forget to add two backslashes after you type out this statement. :) 
+    \begin{center}\textbf{09/17/2020 - 07:02:20 PM}\end{center}
+        Make sure to submit project by 09-29-2020 by \textbf{ALL} group members.
     
 \end{abstract}
 
-\tableofcontents    
-
 % --> First Chapter
 
-\section{Title}
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    \begin{center}\line(1,0){250}\end{center}
+\section{Lecture}
+    \begin{figure}[!htb]
+        \centering
+        \fbox{\includegraphics[width=13.5cm]{nfa-dfa.png}}
+        \caption{NFA to DFA Conversion}
+    \end{figure}
+    \begin{figure}[!htb]
+        \centering
+        \fbox{\includegraphics[width=13.5cm]{dfsm-difference.png}}
+        \caption{DFSM Differences}
+    \end{figure}
+
+
 
 % --> Next Chapter
 
@@ -43,7 +51,7 @@
 % Possibly Important LaTeX Functions %
 % ================================== %
 
-%   \begin{figure}[hbtp]
+%   \begin{figure}[!htb]
 %       \centering
 %       \fbox{\includegraphics[width=13.8cm]{big_o.png}}
 %       \caption{Big(O) Notation}
