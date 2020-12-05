@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+
+\usepackage{graphicx}
+\usepackage{abstract}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{indentfirst}
+\usepackage{amssymb}
+\usepackage{titling}
+\usepackage{mwe}
+\usepackage{fancyhdr}
+ 
+\graphicspath{ {./images/} }
+\renewcommand{\abstractname}{\small{\begin{center}Timestamps\end{center}\vspace{-4ex}}}
+
+\setlength{\parskip}{3mm}   % Add space between paragraphs.
+\setlength{\parindent}{0.5in}
+\setlength{\droptitle}{-35pt}
+
+\fancypagestyle{plain}{
+    \vspace{3ex}
+    \fancyhead[L]{October 10th, 2020}
+    \renewcommand{\headrulewidth}{0.5pt}
+}
+
+\pretitle{\begin{center} \LARGE \textbf}
+\posttitle{\end{center} \vspace{-3ex}}
+\preauthor{\begin{center} \large}
+\postauthor{\end{center} \vspace{-3ex}}
+\predate{\begin{center} \small \emph}
+\postdate{\end{center} \vspace{-3ex}}
+
+\title{Chapter 4 \& 5 Summary}
+\author{Chris Nutter\thanks{Dedicated to @QuesoGrande a.k.a. Jared D.}}
+\date{CPSC 362}
+
+% --> Here we go, satellite radio, y'all get hit with a...
+
+\begin{document}
+\maketitle
+
+\begin{center} \vspace{-4ex}|\vspace{-3ex} \end{center}
+
+\noindent\abstractname
+\begin{center}
+    \normalsize\textbf{10/08/2020 - 01:58:55 PM}\\
+    Figures of each model are at the end of the document.
+\end{center}
+\normalsize
+
+\tableofcontents    
+\vspace{4ex}
+
+% --> First Chapter
+
+\section{Lorem ipsum}
+    \lipsum[1]
+
+\end{document} 
+
+% Possibly Important LaTeX Functions %
+% ================================== %
+
+%   \begin{figure}[hbtp]
+%       \centering
+%       \fbox{\includegraphics[width=13.8cm]{big_o.png}}
+%       \caption{Big(O) Notation}
+%   \end{figure}
+
+%   \begin{lstlisting}[language=Python] 
+%        print('hello world') 
+%   \end{lstlisting}  
+

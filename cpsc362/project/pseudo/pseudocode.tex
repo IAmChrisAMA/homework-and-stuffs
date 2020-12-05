@@ -1,0 +1,223 @@
+\documentclass[12pt]{article}
+
+\usepackage[a4paper, total={6in, 10in}]{geometry}
+\usepackage{verbatim}
+
+% --> Here we go, satellite radio, y'all get hit with a...
+
+\title{Group \#9 | Pseudocode}
+\author{Chris Nutter\and Michael Nguyen\and Loc Nguyen}
+\date
+
+\begin{document}
+
+\maketitle
+
+\section{main()}
+    \begin{verbatim}
+***************************************************
+
+-> user opened exec
+
+    display:
+        buttons for gamemodes
+            _time, _rank, _practice, _calc
+        text for points
+        title text
+        text for button labels
+        hover over options for instructions (??)
+
+    ---
+
+    while (user not exit) {
+        CaseA = time_mode()
+        CaseB = rank_mode()
+        CaseC = practice_mode()
+        CaseD = calculator()
+
+        if (user picks "time_mode()")
+            display time_mode()
+
+        if (user picks "rank_mode")
+            display rank_mode()
+
+        if (user picks "practice_mode")
+            display practice_mode()
+
+        if (user picks "calculator"
+            display calculator()
+    }
+
+    close program
+
+***************************************************
+    \end{verbatim}
+
+\newpage
+
+\section{time\_mode() + \_start$\rightarrow$time\_mode()}
+    \begin{verbatim}
+***************************************************
+
+-> user clicked _time button 
+
+    display:
+        buttons for _start and _back
+        text for instructions & "ready to start"
+    
+    while (user not _back) {    
+        if (user picks "_start")
+            display:
+                _start->time_mode() // starting screen for time_mode()
+    }
+
+-> user clicked _start->time_mode()
+    
+    display:
+        one question
+        input answer
+        button for submit
+    
+    variation 1:
+        print question
+        while (time is not 0) {
+            while (user inputs answer) {
+                if (answer correct)
+                    if (user has answered all questions)
+                        print congrats!
+                        return to main()
+                    else
+                        print nice! next problem...
+                        repeat--;
+                else
+                    print try again... clock is ticking
+            }
+        }
+
+    variation 2:
+        print ALL questions
+        if (user does not input all answers)
+            print "you didn't answer all questions"
+        if (user is done)
+            check answers
+            if (incorrect answers)
+                print incorrect answers
+            else
+                print congrats you got all them correct!
+        return to main()
+
+***************************************************
+    \end{verbatim}
+
+\section{quiz\_mode() + \_start\_quiz\_mode()}
+    \begin{verbatim}
+***************************************************
+
+--> user clicked quiz_mode()
+
+    display:
+        buttons for _start and _back AND _print_sheet
+        text for instructions & "ready to start" & print pdf sheet
+    
+    if (user print pdf sheet)
+        if (user hasn't taken test)
+            print u have not taken test
+        else
+            pdf testsheet.pdf
+
+    while (user not _back) {
+        if (user picks _start)
+            display:
+                _start->quiz_mode()
+    }
+
+--> user clicked _start->quiz_mode()
+
+    display:
+        all questions in a grid form
+        text with the problems
+        input for the answers
+
+    if (user does not input all answers)
+        print "you didn't answer all questions"
+        if (user is done)
+            check for answers
+            if (incorrect answers)
+                print incorrect answers
+            else
+                print congrats!
+            save answers to log
+            update rank points
+            return to main()
+
+***************************************************
+    \end{verbatim}
+
+\newpage
+
+\section{practice\_mode() + \_start\_practice\_mode()}
+    \begin{verbatim}
+***************************************************
+
+--> user clicked practice_mode()
+
+    display:
+        buttons for _start and _back
+        text for instructions & "ready to start"
+    
+    while (user not _back) {
+        if (user picks _start)
+            display:
+                _start->practice_mode()
+    }
+
+--> user clicked _start->practice_mode()
+
+    display:
+        all questions in a grid form
+        text with the problems
+        input for the answers
+
+    if (user does not input all answers)
+        print "you didn't answer all questions"
+        if (user is done)
+            check for answers
+            if (incorrect answers)
+                print incorrect answers
+            else
+                print congrats!
+            return to main()
+
+***************************************************
+    \end{verbatim}
+
+\newpage
+
+\section{calculator()}
+    \begin{verbatim}
+***************************************************
+
+--> user clicked calculator()
+
+    display:
+        new window w/ either...
+            windows: built in calculator
+            mac: built in calculator
+            linux: made from scratch calculator (so we actually code something)
+
+    while (user did not close calc) {
+        do anything user wants with buttons on calculator
+    }
+    
+    close calculator
+
+***************************************************
+    \end{verbatim}
+
+\newpage
+
+
+
+
+\end{document} 
+
