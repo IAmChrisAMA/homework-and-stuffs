@@ -1,0 +1,254 @@
+\documentclass{article}
+\usepackage[paperheight=8.5in,
+						paperwidth=13.0in,
+						margin=1in,
+						headheight=0.0in,
+						footskip=0.5in,
+						includehead,
+						includefoot]{geometry}
+
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{listings}
+\usepackage{amssymb}
+\usepackage{mwe}
+\usepackage{enumitem}
+\usepackage{imakeidx}
+
+\makeindex[columns=3]
+\graphicspath{{./images/}}
+
+\setlength{\parskip}{2mm}
+\setlength{\parindent}{0.5in}
+
+% --> Here we go, satellite radio, y'all get hit with a...
+
+\begin{document}
+
+\begin{figure}[hbtp]
+	 \vspace{8ex}
+	 \centering
+    \includegraphics[width=13.8cm]{logo.png}
+\end{figure}
+
+\begin{center}
+	{\Huge All-in-One Pokémon Nuzlocke-pedia}
+		\\
+		\vspace{10px}
+	{\LARGE Chris Nutter}
+		\\
+		\vspace{7px}
+	{\large \href{https://iamchrisama.com/}{https://iamchrisama.com/}}
+\end{center}
+
+\newpage 
+
+\tableofcontents
+\newpage  
+\vspace{4ex}
+
+% ---------------------------------
+
+\section*{\centering Prologue}
+	This is more of a information document (primarily for myself) however I do not mind publicly sharing this document. I'm starting to get into playing Pokémon in a more "increased difficulty" standpoint. This will also serve as a document to be able to read things that I often (and still do not) remember.
+	\\\\
+	This document is limited to Generation 5 or below because I do not have interest in the 3D games as, in my eyes, they are not appropriate to my play style. They lack the polish and requirements to make an appropriate Pokémon game to me. Some of the guide may reference things for later generations but that is not the primary focus of this document.
+	\\\\
+	I sure hope that you use this document as a guide for your nuzlockes (and even your Pokémon runs in general) and not see it as a "guide on how to cheat at a nuzlocke". The purpose of a nuzlocke is to challenge yourself. Rarely are games ever hardcoded to be nuzlockes so it's on YOU as the player to follow rules.
+	\begin{flushright}
+		Thanks and welcome to the Pokémon world.
+		\\
+		- Red (Chris)
+	\end{flushright}
+\newpage
+
+\section{Basic Information}
+	The Nuzlocke Challenge is a set of rules intended to create a higher level of difficulty while playing the Pokémon games. Many challengers feel that the rules also serve the purpose of encouraging the use of Pokémon the player would not normally choose, and promoting closer bonds with the player's Pokémon. The rules are not an in-game function, but are self-imposed on the part of the player, and thus subject to variation.
+	\\\\
+	This document is meant to serve as basic information about each type of \textit{-locke}. When choosing, be considerate of how each Pokémon game works and their mechanics. Later generations have more features than previous generations. \textit{Most} of these \textit{-lockes} can be utilized with a randomizer for broader difficulty though it is not required. 
+	\\\\
+	Every section includes a \textbf{Core Rules} section that are the basic \textit{required -locke} rules and they must be utilized. (Of course, every run is different but it should be important to make note of every change towards your audience).
+\newpage
+
+\section{Nuzlocke}
+\index{Nuzlocke}
+	% ---------------------------------
+
+	\subsection{Core Rules}
+		The Nuzlocke Challenge has only two rules that must be followed...
+
+			\begin{itemize}
+				\item 
+					Any Pokémon that faints is considered dead, and must be released or put in the Pokémon Storage System permanently (or may be transferred to another game, as long as the Pokémon is never able to be used again during this run).
+				\item
+					The player may only catch the first wild Pokémon encountered in each area, and none else. If the first wild Pokémon encountered faints or flees, there are no second chances. If the first encounter in the area is a double battle, the player is free to choose which of the two wild Pokémon they would like to catch but may only catch one of them. This restriction does not apply to Pokémon able to be captured during static encounters, nor to Shiny Pokémon.
+			\end{itemize}
+
+		\noindent Other near-universally used rules include...
+
+			\begin{itemize}
+				\item 
+					The player must nickname all of their Pokémon, for the sake of forming stronger emotional bonds.
+				\item
+					The player may only use Pokémon they have captured themselves, meaning Pokémon acquired through trading, Mystery Gifts, etc., are prohibited. As for trading and retrading the same Pokémon (for the purpose of evolving a Graveler, for example), there is no firm consensus. As of White: Hard-Mode Episode 3, it is implied that the player can accept Pokémon that are received freely from NPCs.
+				\item 
+					The player may not voluntarily reset and reload the game whenever things go wrong. Being able to do so would render all of the other rules pointless.
+			\end{itemize}
+
+	% ---------------------------------
+
+	\subsection{Optional Rules}
+	\renewcommand{\labelitemi}{$\square$}
+
+		Though the above rules tend to stay consistent with all challengers, many optional variations and amendments to the rules have been created by players to further adjust difficulty. Many other rules exist other than those listed here; challengers adjust their personal rules according to their own preferences. Regardless of the optional rules being used, the run is considered a Nuzlocke Challenge as long as the core rules are still in place.
+
+	\subsubsection{Increased difficulty}
+			\textit{Pro Tip}: Use the checkboxes to mark off your desired difficulty changes.
+			\begin{itemize}
+				\item 
+					The player's Starter Pokémon must be randomly chosen. A common system is if the last digit of the player's Trainer ID number is 1-3, the player must choose the Grass-type starter; if it is 4-6, the Fire-type starter; if it is 7-9, the Water-type starter; if it is 0, free choice. Alternatively, use the Trainer ID modulo 3 for the same purposes.
+				\item
+					A black out/white out is considered to be a "game over," even if there are usable Pokémon left in the PC, and the player must start over.
+				\item
+					The player may only catch the first Pokémon after each Gym battle instead of in each area.
+				\item
+					The player must use the same number of Pokémon as the opponent uses during a Gym battle or rival battle.
+				\item
+					The battle style must be changed to "set" in the options menu, meaning the player does not get the opportunity to switch out their Pokémon after an opponent's Pokémon faints.
+				\item
+					The player's Starter Pokémon must be released or permanently put into a PC box after the first wild Pokémon is caught.
+				\item
+					Potions and status-healing items may not be used, so the player may only use Pokémon Centers for healing.
+					\begin{itemize}
+						\item[] Or, Pokémon Centers may not be used, meaning only Potions and items may be used for healing.
+					\end{itemize}
+				\item
+					The player is limited in their Pokémon Center visits to a certain number per town.
+				\item
+					Held items may not be used.
+				\item
+					The number of Poké Balls able to be purchased per Poké Mart is limited to a certain number.
+				\item
+					Poké Marts may not be used; the only items that may be used are those found in the overworld or given to the player by NPCs.
+				\item
+					Master Balls may not be used.
+				\item
+					The player may not evolve their captured Pokémon, but evolved Pokémon may still be caught.
+				\item
+					(Pokémon Black 2\index{Pokémon Black 2} and Pokémon White 2\index{Pokémon White 2} only) The difficulty must be set to Challenge Mode, which increases the levels of opposing Trainers' Pokémon.
+				\item
+					Legendary Pokémon may not be used.
+				\item
+					The player may not flee from battle.
+				\item
+					The player may not use Pokémon above a certain level limit based on the level of the next Gym Leader/Elite Four/Champion's highest leveled Pokémon. What to do with Pokémon in a player's collection that surpass the level limit is up to the player.
+				\item
+					Poké Balls may not be used. Any Pokémon obtained must be either given to the player or hatched from an Egg.
+				\item
+					The Day Care may not be used.
+				\item
+					The Exp. Share may not be used.
+				\item
+					Quality-of-life features, such as Pokémon-Amie, the DexNav, or Super Training, may not be used.
+				\item
+					Online resources (walkthroughs, guides, etc.) may not be used.
+				\end{itemize}
+
+	% ---------------------------------
+
+	\subsubsection{Decreased difficulty}
+			\begin{itemize}
+				\item 
+					The core rules are not in effect until the player has gained their first Poké Balls and thus the ability to catch Pokémon. For example, encounters starting from the Poochyena/Zigzagoon that the player has to save Professor Birch from, up to when the player has the ability to catch Pokémon, are not counted. Likewise, in the games where the rival battle is immediately after obtaining the starter Pokémon, the "any Pokémon that faint must be released" rule is often not enforced at that time.
+				\item
+					Species/Dupes Clause: The "first wild Pokémon in each area" rule does not apply in an area until a species or evolution line is encountered that has not been caught yet. For example, if the player's first encounter in an area is with a Caterpie and they already own a Caterpie, Metapod or Butterfree, it wouldn't count as their first encounter in that area. This is to allow for increased variety in a player's Pokémon collection.
+				\begin{itemize}
+					\item[] A limit may be set on how many times the player can apply the Species/Dupes Clause in an area. If this many duplicate Pokémon are encountered in an area, the Species/Dupes Clause is no longer applied for that area and the player has to settle for the next Pokémon they encounter, regardless of its species.
+				\end{itemize}
+				\item
+					The player may have a small number of "second chances" or revives of fallen team members.
+				\item
+					Shiny Clause: Shiny Pokémon do not need to be released if they faint.
+				\item
+					Each Gym Badge may act as a checkpoint. If the player gets a game over, they may start over from when they got their previous Gym Badge.
+				\item
+					If the player has no Pokémon that can use a field move that is required to continue the game, they may catch another Pokémon that can learn said field move. However, it cannot be used in battle for any reason, and must be released, permanently put into a PC box, or migrated as soon as it is no longer needed or if the player catches another Pokémon that can use said field move.
+				\item
+					The "first encounter only" rule 
+is modified for within the Safari Zone. One encounter may be had for each area, or one encounter may be allowed for the entire Zone.
+			\end{itemize}
+
+\renewcommand{\labelitemi}{$\bullet$}
+
+\section{Wonderlocke}
+\index{Wonderlocke}
+	The Wonderlocke is a Nuzlocke variant created specifically for generations with \textit{Wonder Trading}\index{Wonder Trading}. There are currently two ways to play the Wonderlocke, both with very similar concepts.
+
+	% ---------------------------------
+
+	\subsection{Core Rules}
+		\textit{Source}: \href{https://www.deviantart.com/nuzlockefamily/journal/Wonderlocke-508282574/}{https://www.deviantart.com/nuzlockefamily/journal/Wonderlocke-508282574/}
+		\begin{itemize}
+			\item 
+				You may only catch the first Pokémon you encounter in each new area you explore. Fail to catch it and you get nothing for the area.
+			\item 
+				Whenever you obtain a new Pokémon, you must wonder trade it off for a random new Pokémon.
+			\item 
+				Dupes Clause: If you obtain a duplicate Pokémon from Wonder Trade, you may wonder trade it back off. This does NOT apply to normal captures.
+			\item 
+				If you gain a pokémon that is too high leveled and won't listen to you, you may wonder trade it back off.
+			\item 
+				Do not have the Exp Share turned on when battling trainers, you may only use it when grinding.
+			\item 
+				You must give each Pokémon you catch a unique nickname, so that anyone who receives one of your Pokémon knows for sure that it is from you.
+			\item 
+				If one of your Pokémon faints it is considered dead and needs to be released or permanently put into the PC.
+			\item
+				Do not use any O-Powers (Unless for grinding montages).
+		\end{itemize}
+
+	\subsection{How to Play}
+		You will need...
+		\begin{itemize}
+
+% ---------------------------------
+
+\section{Egglocke}
+\index{Egglocke}
+	A ruleset first created by user William Syler of \href{https://minecraftforum.net}{minecraftforum.net}. However, the ruleset has been changed drastically since it was first created, as the original idea was not possible in Pokémon FireRed and LeafGreen. While it may have still kept it's name, it's gameplay is now completely different.
+
+	% ---------------------------------
+
+	\subsection{Core Rules}
+		\textit{Source}: \href{https://www.deviantart.com/nuzlockefamily/journal/Egglocke-508283827}{https://www.deviantart.com/nuzlockefamily/journal/Egglocke-508283827}
+		\begin{itemize}
+			\item 
+				You may only catch the first Pokémon you encounter in each new area you explore. Fail to catch it and you get nothing for the area. (Rule doesn't apply until the player first obtain pokeballs)
+			\item 
+				Every caught Pokémon needs to be swapped out for an egg.
+			\item 
+				The eggs will be provided by other people (players, subscribers, friends, etc...).
+			\item 
+				Dupes Clause is recommended, to add to the uniqueness of each Pokémon. This means you do not count any hatches against any Pokémon whose species you have already obtained.
+			\item 
+				All Pokémon must be nicknamed.
+			\item 
+				If one of your Pokémon faints, you must release.
+			\item 
+				The egg must be a baby Pokémon! Some people like to modify the eggs to be middle evolution and it's unfair.
+			\item
+				The Pokémon can have egg moves (Thunderpunch, firepunch, etc.).
+			\item
+				Allow someone to give you a Hatching O-Power to hatch eggs faster.
+		\end{itemize}
+
+	\subsection{How to Play}
+
+% ---------------------------------
+
+\newpage
+
+\printindex
+
+
+\end{document} 

@@ -1,0 +1,53 @@
+Chris Nutter
+Psuedocode
+
+---------------------------------------------------------------------------------
+
+At Startup:
+	The program loads to a login screen or it auto logins.
+	N U M B E R L A N D text appears at top.
+	Colorful program appears.
+	The program will show a picture and 5 buttons, "Time Attack", "Quiz", "Practice Mode", "Calculator", and "Exit".
+	
+Time Attack
+	Once "Time Attack" is clicked a button is prompted to say "Ready to play?" and once clicked the game will start.
+	The game generates random algorithmic math to be displayed in stdout.
+	A countdown timer will also begin.
+	The user will fill out answers at their pace.
+	Once answered, it will immediately give response whether correct or incorrect.
+	Timer:
+		If timer goes out, stdin will stop and it will be left with "Game Over" text.
+		A "+" button will appear to let the user increase time if desired to encourage critical thinking.
+	The game keeps going until timer goes out or if stopped.
+	
+	
+Practice Mode
+	This will prompt the user with "Ready to play?" and once clicked the game will start.
+	This is almost verbatim quiz but will NOT UPDATE POINTS OR HISTORY.
+	
+Quiz
+	Before playing there is an extra button to display previous ranked games called "History"
+	Almost a carbon copy of "Practice Mode" except that there is a max time that cannot change.
+	There also is no immediate feedback.
+	Once over, the game will give a report of what was correct and incorrect.
+	Quiz WILL UPDATE POINTS ALGORITHM AND UPDATE HISTORY.
+	
+	History
+		Will give a PDF of all your previous games and date.
+		
+Points
+	Not a button.
+	Text will appear at the top that gives the total rank in an algorithmic way.
+	No more than 10 score. No smaller than 0.
+	
+Calculator
+	Will create a calculator prompt at time but will auto-close during quiz.
+	Buttons 0-9 and mathmatical symbols.
+	
+Exit
+	Returns 0 and ends program
+	
+---------------------------------------------------------------------------------
+
+This is all I can think of at the moment. Login will use mySQL and is still being considered.
+	
