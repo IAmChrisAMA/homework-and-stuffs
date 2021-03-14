@@ -8,23 +8,53 @@
 \usepackage{amssymb}
 \usepackage{fancyhdr}
 \usepackage{adjustbox}
-
+\usepackage{tabularx}
+\usepackage[labelformat=empty]{caption}
 
 \begin{document}
 
-\section{Project Organization / Structure}
-	\subsection{Process Model}
-		This project utilizes an iterative development and deployment using SCRUM methodologies.
-		\begin{table}[!hbt]
-			\centering
-		    	\begin{tabular}{|l|l|l|l|l|}
-		    		\hline
-		        			\textbf{Crash Avoidance System} & Planned Completion Date & Placed Under Change Control & Deliverable to Customer? & People Who Must Sign Off \\ \hline
-		        			Develop Crash Avoidance System (CAS) & December 31st, 2021 & No &  & Project Manager Engineering Lead, Documentation Lead \\ \hline
-		        			Develop In-Flight Test of \\Crash Avoidance System (IFTCAS) & December 31st, 2022 & No &  & Project Manager Engineering Lead, Documentation Lead \\ \hline
-		        			Incorporate Test Results and \\Associated Design Changes \\into Final System & December 31st, 2023 & No &  & Project Manager Engineering Lead, Documentation Lead, Customer Approval \\ \hline
-		        			TBD & TBD & TBD & TBD & TBD \\ \hline
-		   	 \end{tabular}
-		\end{table}
+\tableofcontents   
+\section{Revision History}
+\section{Introduction}
+	This Software Development Plan (SDP) is a document used to capture the management approach and engineering environment effort associated with our program. The software and organizational structure will be established. The SDP will discuss the high level software schedule with key milestones and what risks and how they will be managed with regard to the development process. The SDP will determine the optimal route for how to take advantage of reusable software and systems. The software configuration management plan will be established here. This document will also describe the software engineering environment including in house lab facilities and infrastructure. 
+\newpage
 
+\section{Software Organization / Structure}
+	\subsection{Process Model}
+		This project utilizes an iterative development and deployment using SCRUM methodologies. The goal is to create the Crash Avoidance System to the expected dates developing engineering and software applications simultaneously.
+		\begin{table}[!h]
+			\centering
+			\begin{tabularx}{\textwidth}{|X|X|X|}
+				\hline \textbf{Crash Avoidance System} & \textbf{Planned Completion Date} & \textbf{People Who Must Sign Off}							      \\
+				\hline Develop Crash Avoidance System  & December 31st, 2021 			  & Project Manager Engineering Lead, Documentation Lead 					\\
+				\hline Develop In-Flight Test of 
+					   Crash Avoidance System 		   & December 31st, 2022 			  & Project Manager Engineering Lead, Documentation Lead 				\\ 
+		       	\hline Incorporate Test Results 
+		       		   and Associated Design Changes 
+		       		   into Final System 			   & December 31st, 2023 			  & Project Manager Engineering Lead, Documentation Lead, Customer Approval  \\
+		        \hline TBD 						   	   & TBD					 		  & TBD 									\\ 
+		        \hline
+			\end{tabularx}
+		\end{table}
+	\subsection{Organizational Structure}
+	\subsection{Organizational Boundaries}
+		
+\section{Software Development Process}
+	The CAS software is utilizing guidelines of IEEE. Table 7-1 showcases the phases that these standards expect.
+		\begin{table}[!h]
+			\centering
+			\begin{tabularx}{\textwidth}{|l|X|}
+				\hline \textbf{Project Phases} 						& \textbf{Sections Integrated} \\
+				\hline Project Planning \& Expectations 			& \textbf{2.0} Introduction, \textbf{3.1} Process Model  \\
+				\hline \textit{Phase 1}: Software Requirements 	& \textbf{12} Software Requirements \\
+				\hline \textit{Phase 2}: Design 					& \textbf{5} Software Schedule \\
+				\hline \textit{Phase 3}: Unit Testing 				& Section 3-1, \\
+				\hline \textit{Phase 4}: Qualification Tests		& Section 3-1, \\
+				\hline \textit{Phase 5}: Support for Use 			& Section 3-1, \\
+				\hline Quality Assurance 							& TBD, \\
+				\hline Project Reviews					 			& TBD, \\
+		        	\hline
+			\end{tabularx}
+			\caption{\textbf{Table 4-1} CAS Project Activities utilizing IEEE}
+		\end{table}
 \end{document} 

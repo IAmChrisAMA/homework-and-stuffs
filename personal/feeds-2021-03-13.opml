@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+<head>
+<title>RSS</title>
+</head>
+<body>
+<outline title="Chris | Red | Blue" type="rss" xmlUrl="https://iamchrisama.com/rss.xml" text="Chris | Red | Blue" htmlUrl="https://iamchrisama.com/" />
+<outline text="Luke Smith" htmlUrl="https://lukesmith.xyz/rss.xml" xmlUrl="https://lukesmith.xyz/rss.xml" title="Luke Smith" type="rss" />
+<outline title="News" text="News">
+<outline xmlUrl="http://news.fullerton.edu/engineering-and-computer-science/feed" text="ECS CSUF News" type="rss" htmlUrl="http://news.fullerton.edu" title="ECS CSUF News" />
+<outline htmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101/" title="GBAtemp News" type="rss" text="GBAtemp News" xmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101.rss" />
+<outline htmlUrl="https://news.ycombinator.com/" xmlUrl="https://hnrss.org/frontpage" type="rss" title="Hacker News" text="Hacker News" />
+<outline title="xda-developers" text="xda-developers" htmlUrl="https://www.xda-developers.com" xmlUrl="http://xda-developers.com/feed" type="rss" />
+</outline>
+<outline text="RARBG" title="RARBG">
+<outline type="rss" title="Movies" text="Movies" htmlUrl="http://rarbg.com" xmlUrl="https://rarbg.to/rssdd.php?categories=44" />
+<outline xmlUrl="https://rarbg.to/rssdd.php?categories=52" type="rss" text="4K Movies" title="4K Movies" htmlUrl="http://rarbg.com" />
+</outline>
+<outline title="Reddit" text="Reddit">
+<outline xmlUrl="https://reddit.com/r/gamesale.rss" text="GameSale" type="rss" title="GameSale" htmlUrl="https://www.reddit.com/r/gamesale" />
+<outline xmlUrl="http://reddit.com/r/hardwareswap.rss" title="HardwareSwap" text="HardwareSwap" type="rss" htmlUrl="https://www.reddit.com/r/hardwareswap" />
+<outline xmlUrl="http://reddit.com/r/buildapcsales.rss" title="BuildAPCSales" text="BuildAPCSales" htmlUrl="https://www.reddit.com/r/buildapcsales" type="rss" />
+<outline text="Conservative" type="rss" title="Conservative" htmlUrl="https://www.reddit.com/r/conservative" xmlUrl="https://reddit.com/r/conservative.rss" />
+</outline>
+</body>
+</opml>
