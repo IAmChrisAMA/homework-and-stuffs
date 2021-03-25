@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+	<head>
+		<title>RSS</title>
+	</head>
+	
+	<body>
+
+		<outline xmlUrl="https://iamchrisama.com/rss.xml" htmlUrl="https://iamchrisama.com/" type="rss" text="Chris | Red | Blue" title="Chris | Red | Blue" />
+		<outline xmlUrl="https://lukesmith.xyz/rss.xml" htmlUrl="https://lukesmith.xyz/rss.xml" type="rss" text="Luke Smith" title="Luke Smith" />
+		<outline xmlUrl="https://reddit.com/r/pizza.rss" type="rss" text="r/Pizza" htmlUrl="https://www.reddit.com/r/pizza" title="r/Pizza" />
+
+		<outline title="Main News" text="Main News">
+			<outline xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/" type="rss" text="Hacker News" title="Hacker News" />
+			<outline xmlUrl="http://news.fullerton.edu/engineering-and-computer-science/feed" htmlUrl="http://news.fullerton.edu" type="rss" text="ECS CSUF News" title="ECS CSUF News" />
+			<outline xmlUrl="http://xda-developers.com/feed" htmlUrl="https://www.xda-developers.com" type="rss" text="xda-developers" title="xda-developers" />
+		</outline>
+		
+		<outline title="Gaming News" text="Gaming News">
+			<outline xmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101.rss" htmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101/" type="rss" text="GBAtemp News" title="GBAtemp News" />
+			<outline xmlUrl="https://nintendonews.com/api/nn/feed" htmlUrl="https://nintendonews.com/" type="rss" text="Nintendo News" title="Nintendo News" />
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfAPTv1LgeEWevG8X_6PUOQ" type="rss" text="yt/GameXplain" htmlUrl="https://www.youtube.com/channel/UCfAPTv1LgeEWevG8X_6PUOQ" title="yt/GameXplain" />
+		</outline>		
+		
+		<outline text="Fake News" title="Fake News">
+			<outline xmlUrl="http://babylonbee.com/feed" htmlUrl="https://babylonbee.com" type="rss" text="The Babylon Bee" title="The Babylon Bee" />
+			<outline xmlUrl="http://theonion.com/rss" htmlUrl="https://www.theonion.com" type="rss" text="The Onion" title="The Onion" />
+			<outline xmlUrl="https://thehardtimes.net/harddrive/feed/" htmlUrl="https://thehardtimes.net/harddrive/" type="rss" text="Hard Drive" title="Hard Drive" />
+		</outline>
+		
+		<outline text="Conservative News" title="Conservative News">		
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCnQC_G5Xsjhp9fEJKuIcrSw" type="rss" text="yt/Ben Shapiro" htmlUrl="https://www.youtube.com/channel/UCnQC_G5Xsjhp9fEJKuIcrSw" title="yt/Ben Shapiro" />
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCMAtX9eFBpwc4LtgvbqsOpQ" type="rss" text="yt/Steven Crowder" htmlUrl="https://www.youtube.com/channel/UCMAtX9eFBpwc4LtgvbqsOpQ" title="yt/Steven Crowder" />
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzUV5283-l5c0oKRtyenj6Q" type="rss" text="yt/Mark Dice" htmlUrl="https://www.youtube.com/channel/UCnQC_G5Xsjhp9fEJKuIcrSw" title="yt/Mark Dice" />
+			<outline xmlUrl="http://reddit.com/r/conservative.rss" type="rss" text="Conservative" htmlUrl="http://reddit.com/r/conservative" title="Conservative" />
+		</outline>
+		
+		<outline text="Acquired Media" title="Acquired Media">
+			<outline xmlUrl="https://rarbg.to/rssdd.php?categories=44" htmlUrl="http://rarbg.com" type="rss" text="rarbg/Movies" title="rarbg/Movies" />
+			<outline xmlUrl="https://rarbg.to/rssdd.php?categories=52" htmlUrl="http://rarbg.com" type="rss" text="rarbg/4K Movies" title="rarbg/4K Movies" />
+		</outline>
+
+		<outline text="Buying & Selling" title="Buying & Selling">
+			<outline xmlUrl="https://reddit.com/r/gamesale.rss" type="rss" text="r/GameSale" htmlUrl="https://www.reddit.com/r/gamesale" title="r/GameSale" />
+			<outline xmlUrl="https://reddit.com/r/appleswap.rss" type="rss" text="r/AppleSwap" htmlUrl="https://www.reddit.com/r/appleswap" title="r/AppleSwap" />
+			<outline xmlUrl="https://reddit.com/r/hardwareswap.rss" type="rss" text="r/HardwareSwap" htmlUrl="https://www.reddit.com/r/hardwareswap" title="r/HardwareSwap" />
+			<outline xmlUrl="http://reddit.com/r/buildapcsales.rss" type="rss" text="r/BuildAPCSales" htmlUrl="http://reddit.com/r/buildapcsales" title="r/BuildAPCSales" />
+		</outline>
+		
+		<outline text="Reddit Threads" title="Reddit Threads">
+			<outline xmlUrl="https://reddit.com/r/13reasonswhy.rss" type="rss" text="r/13ReasonsWhy" htmlUrl="https://www.reddit.com/r/13reasonswhy" title="r/13ReasonsWhy" />
+			<outline xmlUrl="https://reddit.com/r/cobrakai.rss" type="rss" text="r/CobraKai" htmlUrl="https://www.reddit.com/r/cobrakai" title="r/CobraKai" />
+			<outline xmlUrl="https://reddit.com/r/datahoarder.rss" type="rss" text="r/DataHoarder" htmlUrl="https://www.reddit.com/r/datahoarder" title="r/DataHoarder" />
+			<outline xmlUrl="https://reddit.com/r/crackwatch.rss" type="rss" text="r/CrackWatch" htmlUrl="https://www.reddit.com/r/crackwatch" title="r/CrackWatch" />
+			<outline xmlUrl="https://reddit.com/r/emulation.rss" type="rss" text="r/Emulation" htmlUrl="https://www.reddit.com/r/emulation" title="r/Emulation" />
+			<outline xmlUrl="https://reddit.com/r/piracy.rss" type="rss" text="r/Piracy" htmlUrl="https://www.reddit.com/r/piracy" title="r/Piracy" />
+			<outline xmlUrl="https://reddit.com/r/unixporn.rss" type="rss" text="r/UnixPorn" htmlUrl="https://www.reddit.com/r/unixporn" title="r/UnixPorn" />
+		</outline>		
+
+		<outline text="Other YouTube" title="Other YouTube">
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCughdUVtTMGQem6dxIF-iIA" type="rss" text="yt/Unreal" htmlUrl="https://www.reddit.com/c/UnrealPC" title="yt/Unreal" />
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCiYpKsB66LZsk7s4yhxJqlQ" type="rss" text="yt/SimpleFlips" htmlUrl="https://www.youtube.com/channel/UCiYpKsB66LZsk7s4yhxJqlQ" title="yt/SimpleFlips" />
+			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UC9ecwl3FTG66jIKA9JRDtmg" type="rss" text="yt/SiIvaGunner" htmlUrl="https://www.youtube.com/channel/UC9ecwl3FTG66jIKA9JRDtmg" title="yt/SiIvaGunner" />
+		</outline>
+
+	</body>
+</opml>
