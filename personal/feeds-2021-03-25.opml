@@ -8,7 +8,6 @@
 
 		<outline xmlUrl="https://iamchrisama.com/rss.xml" htmlUrl="https://iamchrisama.com/" type="rss" text="Chris | Red | Blue" title="Chris | Red | Blue" />
 		<outline xmlUrl="https://lukesmith.xyz/rss.xml" htmlUrl="https://lukesmith.xyz/rss.xml" type="rss" text="Luke Smith" title="Luke Smith" />
-		<outline xmlUrl="https://reddit.com/r/pizza.rss" type="rss" text="r/Pizza" htmlUrl="https://www.reddit.com/r/pizza" title="r/Pizza" />
 
 		<outline title="Main News" text="Main News">
 			<outline xmlUrl="https://hnrss.org/frontpage" htmlUrl="https://news.ycombinator.com/" type="rss" text="Hacker News" title="Hacker News" />
@@ -20,7 +19,7 @@
 			<outline xmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101.rss" htmlUrl="https://gbatemp.net/forums/gbatemp-scene-news.101/" type="rss" text="GBAtemp News" title="GBAtemp News" />
 			<outline xmlUrl="https://nintendonews.com/api/nn/feed" htmlUrl="https://nintendonews.com/" type="rss" text="Nintendo News" title="Nintendo News" />
 			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCfAPTv1LgeEWevG8X_6PUOQ" type="rss" text="yt/GameXplain" htmlUrl="https://www.youtube.com/channel/UCfAPTv1LgeEWevG8X_6PUOQ" title="yt/GameXplain" />
-		</outline>		
+		</outline>
 		
 		<outline text="Fake News" title="Fake News">
 			<outline xmlUrl="http://babylonbee.com/feed" htmlUrl="https://babylonbee.com" type="rss" text="The Babylon Bee" title="The Babylon Bee" />
@@ -34,13 +33,8 @@
 			<outline xmlUrl="https://www.youtube.com/feeds/videos.xml?channel_id=UCzUV5283-l5c0oKRtyenj6Q" type="rss" text="yt/Mark Dice" htmlUrl="https://www.youtube.com/channel/UCnQC_G5Xsjhp9fEJKuIcrSw" title="yt/Mark Dice" />
 			<outline xmlUrl="http://reddit.com/r/conservative.rss" type="rss" text="Conservative" htmlUrl="http://reddit.com/r/conservative" title="Conservative" />
 		</outline>
-		
-		<outline text="Acquired Media" title="Acquired Media">
-			<outline xmlUrl="https://rarbg.to/rssdd.php?categories=44" htmlUrl="http://rarbg.com" type="rss" text="rarbg/Movies" title="rarbg/Movies" />
-			<outline xmlUrl="https://rarbg.to/rssdd.php?categories=52" htmlUrl="http://rarbg.com" type="rss" text="rarbg/4K Movies" title="rarbg/4K Movies" />
-		</outline>
 
-		<outline text="Buying & Selling" title="Buying & Selling">
+		<outline text="Buying and Selling" title="Buying and Selling">
 			<outline xmlUrl="https://reddit.com/r/gamesale.rss" type="rss" text="r/GameSale" htmlUrl="https://www.reddit.com/r/gamesale" title="r/GameSale" />
 			<outline xmlUrl="https://reddit.com/r/appleswap.rss" type="rss" text="r/AppleSwap" htmlUrl="https://www.reddit.com/r/appleswap" title="r/AppleSwap" />
 			<outline xmlUrl="https://reddit.com/r/hardwareswap.rss" type="rss" text="r/HardwareSwap" htmlUrl="https://www.reddit.com/r/hardwareswap" title="r/HardwareSwap" />
@@ -55,6 +49,7 @@
 			<outline xmlUrl="https://reddit.com/r/emulation.rss" type="rss" text="r/Emulation" htmlUrl="https://www.reddit.com/r/emulation" title="r/Emulation" />
 			<outline xmlUrl="https://reddit.com/r/piracy.rss" type="rss" text="r/Piracy" htmlUrl="https://www.reddit.com/r/piracy" title="r/Piracy" />
 			<outline xmlUrl="https://reddit.com/r/unixporn.rss" type="rss" text="r/UnixPorn" htmlUrl="https://www.reddit.com/r/unixporn" title="r/UnixPorn" />
+			<outline xmlUrl="https://reddit.com/r/pizza.rss" type="rss" text="r/Pizza" htmlUrl="https://www.reddit.com/r/pizza" title="r/Pizza" />
 		</outline>		
 
 		<outline text="Other YouTube" title="Other YouTube">
